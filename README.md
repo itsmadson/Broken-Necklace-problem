@@ -2,7 +2,7 @@
 
 ## Problem Description
 The Necklace Problem involves finding the maximum number of beads that can be collected from a given string of beads arranged in a circular manner. Each bead can be of three colors: red ('r'), blue ('b'), or white ('w'). The objective is to collect a continuous sequence of beads from the necklace such that no two adjacent beads have the same color. The problem essentially asks for the longest possible substring of alternating colors that can be obtained from the necklace.
-                             
+```                         
         r b b r                    
       r         b               
      r           r                  
@@ -19,7 +19,7 @@ The Necklace Problem involves finding the maximum number of beads that can be co
        r red bead
        b blue bead
        w white bead
-                    
+```
 ## Solution Approach
 To solve the Necklace Problem efficiently, this C++ program employs a dynamic programming approach. Here's a breakdown of the solution approach:
 
